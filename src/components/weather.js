@@ -7,7 +7,7 @@ export default function Weather(){
     const [form,setFormData]=useState({
         city:"",
     })
-    const APIKEY = "5176cf32a79dd54273d1c21ec4a62d27";
+    
     async function fetchWeatherData(e){
         e.preventDefault();
         if(form.city==""){
